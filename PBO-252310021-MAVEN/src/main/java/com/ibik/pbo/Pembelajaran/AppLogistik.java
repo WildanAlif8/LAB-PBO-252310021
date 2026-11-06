@@ -84,7 +84,6 @@ public class AppLogistik {
                 return;
             }
         }
-        // Soal 4d
         JOptionPane.showMessageDialog(null, "Data tidak ditemukan", "Error Info", JOptionPane.ERROR_MESSAGE);
     }
 

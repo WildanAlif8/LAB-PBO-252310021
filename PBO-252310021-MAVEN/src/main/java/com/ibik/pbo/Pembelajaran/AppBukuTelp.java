@@ -40,7 +40,6 @@ public class AppBukuTelp {
     static void tampilData() {
         StringBuilder sb = new StringBuilder();
         sb.append(String.join(" | ", kolom)).append("\n");
-        sb.append("----------------------------------------------------------------------").append("\n");
         int no = 1;
         for (ArrayList<String> baris : bukuTelp) {
             sb.append(no++).append(". ").append(String.join(" | ", baris)).append("\n");
